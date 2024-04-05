@@ -1,9 +1,18 @@
-import {Text, View} from 'react-native';
+import { Text, View } from 'react-native';
+import { HamburgerMenu } from '../../components/shared/HamburgerMenu';
+
+import { IonIcon } from '../../components/shared/IonIcon';
 
 export const Tab1Screen = () => {
+
   return (
     <View>
-      <Text>Hello World!</Text>
+      <HamburgerMenu />
+
+      <Text>Tab1Screen</Text>
+
+      <IonIcon name='rocket-outline' />
+
     </View>
   );
 };
