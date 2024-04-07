@@ -1,9 +1,10 @@
-import React from 'react'
+import {NavigationContainer} from '@react-navigation/native';
+import { BottomTabNavigator } from './presentation/routes/BottomTabNavigator';
 
-const Main = () => {
+export default function App() {
   return (
-    <div>Main</div>
-  )
+    <NavigationContainer>
+      <BottomTabNavigator />
+    </NavigationContainer>
+  );
 }
-
-export default Main

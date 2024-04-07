@@ -2,7 +2,8 @@ import { Text, View } from 'react-native';
 import { styles } from '../../../config';
 import { useProfileStore } from '../../store/proifle-store';
 
-export const HomeScreen = () => {
+export const ProfileScreen = () => {
+
   const name = useProfileStore(state => state.name);
   const email = useProfileStore(state => state.email);
 
