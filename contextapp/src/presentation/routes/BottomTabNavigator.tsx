@@ -5,7 +5,6 @@ import { HomeScreen } from '../screens/home/HomeScreen';
 import { ProfileScreen } from '../screens/profile/ProfileScreen';
 import { SettingsScreen } from '../screens/settings/SettingsScreen';
 
-
 const Tab = createBottomTabNavigator();
 
 export const BottomTabNavigator = () => {
